@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from mini_league.conf import TARGET_SCORE, init_hcp
+from conf import TARGET_SCORE, init_hcp
 import ipywidgets as widgets
 
 def get_scores_df():
