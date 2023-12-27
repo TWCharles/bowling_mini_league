@@ -7,8 +7,8 @@ import ipywidgets as widgets
 def get_scores_df():
   scores = open("./bowling_mini_league/scores.txt", "r").read()
   scores_list = [scores.split("\n")][0]
-  scores_list = [[j.strip() for j in i.split(",")] for i in scores_list]
   scores_list = [i for i in scores_list if i != ""]
+  scores_list = [[j.strip() for j in i.split(",")] for i in scores_list]
   scores_df = pd.DataFrame(scores_list, columns = ["Date", "Name", "Score", "Competition", "Final"])
   scores_df["Score"] = scores_df["Score"].apply(lambda x: int(x))
   scores_df = scores_df.reset_index()
