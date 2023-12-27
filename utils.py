@@ -5,7 +5,7 @@ from bowling_mini_league.conf import TARGET_SCORE, init_hcp
 import ipywidgets as widgets
 
 def get_scores_df():
-  scores = open("./scores.txt", "r").read()
+  scores = open("./bowling_mini_league/scores.txt", "r").read()
   scores_list = [scores.split("\n")][0]
   scores_list = [[j.strip() for j in i.split(",")] for i in scores_list]
   scores_df = pd.DataFrame(scores_list, columns = ["Date", "Name", "Score", "Competition", "Final"])
