@@ -90,8 +90,8 @@ def visualise():
                  player_ec = widgets.Checkbox(value=False, description='En-Cheng Chang', disabled=False, indent=False),
                  player_d  = widgets.Checkbox(value=False, description='Dramon Yang', disabled=False, indent=False),
                  player_a  = widgets.Checkbox(value=False, description='Alan Grant', disabled=False, indent=False),
-                 average = widgets.IntSlider(value=0, min=0, max=7, step=1, description='Average Param:'),
-                 only_competitions = widgets.Dropdown(options=['YES', 'NO', 'ALL'], value='ALL', description='Show Only Competitions:'),
-                 with_hcp = widgets.Dropdown(options=['YES', 'NO'], value='YES', description='Scores With HCP:'),
+                 average = widgets.IntSlider(value=0, min=0, max=7, step=1, description='Average Param:', style={'description_width': 'initial'}),
+                 only_competitions = widgets.Dropdown(options=['YES', 'NO', 'ALL'], value='ALL', description='Show Only Competitions:', style={'description_width': 'initial'}),
+                 with_hcp = widgets.Dropdown(options=['YES', 'NO'], value='YES', description='Scores With HCP:', style={'description_width': 'initial'}),
                  )
   print("")
