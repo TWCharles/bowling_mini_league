@@ -37,3 +37,15 @@
 23/12/23, EC, 132, True, False
 23/12/23, D, 108, True, False
 23/12/23, A, 180, True, False
+27/12/23, EC, 131, False, False
+27/12/23, D, 122, False, False
+27/12/23, A, 202, False, False
+27/12/23, EC, 164, False, False
+27/12/23, D, 127, False, False
+27/12/23, A, 149, False, False
+27/12/23, EC, 115, False, False
+27/12/23, D, 131, False, False
+27/12/23, A, 188, False, False
+27/12/23, EC, 164, False, False
+27/12/23, D, 122, False, False
+27/12/23, A, 152, False, False
