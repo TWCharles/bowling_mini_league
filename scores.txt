@@ -58,3 +58,15 @@
 30/12/23, EC, 124, True, True
 30/12/23, D, 105, True, True
 30/12/23, A, 170, True, True
+31/01/24, EC, 118, True, False
+31/01/24, D, 140, True, False
+31/01/24, A, 193, True, False
+31/01/24, EC, 135, True, False
+31/01/24, D, 177, True, False
+31/01/24, A, 184, True, False
+31/01/24, EC, 137, True, False
+31/01/24, D, 227, True, False
+31/01/24, A, 212, True, False
+31/01/24, EC, 135, True, False
+31/01/24, D, 127, True, False
+31/01/24, A, 158, True, False
